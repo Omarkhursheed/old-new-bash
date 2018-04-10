@@ -1,0 +1,1 @@
+A bash script that separates files in a specific folder created before and after a date specified as a command line argument.
