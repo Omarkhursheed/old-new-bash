@@ -1,4 +1,4 @@
-##Old-new-bash##
+##Old-new-bash
 A bash script that separates files in specified folders by date
 * To run:
 * Type ./oldnewshell {Date in DD/MM/YYYY formate} {list of path of folders you want to separate}
