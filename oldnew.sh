@@ -7,4 +7,4 @@ do
 		cp -r -p "$var" ./old && cp -r -p "$var" ./new 
 	fi 
 done
-touch -t $startd /tmp/timestamp && find ./new -type f ! -newer /tmp/timestamp -delete && find ./old -type f -newer /tmp/timestamp -delete  
+touch -t $startd /tmp/timestamp && find ./new ! -newer /tmp/timestamp -delete && find ./old -newer /tmp/timestamp -delete  
